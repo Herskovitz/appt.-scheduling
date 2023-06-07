@@ -1,0 +1,28 @@
+I manage the appointment scheduling at our healthcare facility. We've been scheduling and keeping track of our appointments on pen and paper until now, but after we've had some bad mess-up recently, we've decided that it's time to get a good system in place to help record the data. Here is what we will need to keep track of: Patients' full name, DOB, phone number, the date and time of the appointment, the provider's name, the reason for the visit and a blank space for the Provider to write a brief summary of the visit. (We want to keep it short - not more than 200 characters)
+
+Note that since Covid, our providers are also seeing some patients via telehealth. For those appointments, we would like a unique code to be generated - that will then be shared with the patient as a password to access their visit. Make sure it is different for every appointment and that it's complicated enough so that nobody else can figure it out and join uninvited.
+
+We would also like to have a unique reference number for each appointment as 1st 2 digits of last name, then 1st 2 digits of first name, then the appt. day of month (Ex. John Smith appt. 07/08/2023 - SMJO08) Please make sure they're all uppercase.
+
+
+Questions:
+1- Do you need to record the patients' insurance information?--No, that is handled on a different platform.
+2- Can your providers also 'see' a patient over the phone?--No, we cannot bill insurance if we don't see the patient face to face.
+3- Do you ever have walk-ins?--No, appointments must be scheduled at least 1 day in advance.
+4- Can you have more than one patient scheduled for the same time?--Yes, as long as they are seen by different providers
+
+
+I will need the following reports:
+-The total amount of Telehealth appts. comparing the last three years. 
+-The number of days prior to the appts. that the appts. are scheduled, comparing the Telehealth appts. to the in-person appts.
+-The Provider with the most appts.-The Provider with the lowest number of appts.-The average number of appts. per Provider.
+-The amount of appts. per department (General, Dentistry, Ophthalmology, Dermatology)
+-A report of all the past visits in this format: Date and Time of appointment: Patients Last Name, Patients First Name - Appointment Summary
+
+Sample Data:
+Smith, John, 03-24-1979, 212-100-2000, 08-09-2023  12:30 pm, Davies, Mark MD, General-Sick: Sore throat, In-person
+Jackson, Olga, 01-01-1989, 212-123-4567, 07-01-2023 10:00 am, Newman, Michael MD, Ophthalmology-Well, In-person
+Hill, Bill, 10-25-1975, 212-999-8888, 07-02-2023 11:00 am, Friedman, Sharon RN, Dermatology-Sick: Eczema, Tele-visit
+Jefferson, James, 11-12-2000, 212-212-2121, 07-05-2023 8:30 am, Ruben, Jack MD, General-Well, Tele-visit
+Berger, Anne, 10-01-1954, 212-456-7890, 06-10-2023 4:00 pm, Cohen, Michael MD, Dentistry-Sick: Cavities, In-person
+Sparrow, Jason, 09-09-1999,212-359-9865, 06-02-2023 3:00 pm, Davies, Mark MD, General-Sick: Low-grade Fever, Tele-visit
