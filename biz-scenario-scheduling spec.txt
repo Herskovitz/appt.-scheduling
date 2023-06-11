@@ -20,9 +20,17 @@ I will need the following reports:
 -A report of all the past visits in this format: Date and Time of appointment: Patients Last Name, Patients First Name - Appointment Summary
 
 Sample Data:
-Smith, John, 03-24-1979, 212-100-2000, 08-09-2023  12:30 pm, Davies, Mark MD, General-Sick: Sore throat, In-person
-Jackson, Olga, 01-01-1989, 212-123-4567, 07-01-2023 10:00 am, Newman, Michael MD, Ophthalmology-Well, In-person
-Hill, Bill, 10-25-1975, 212-999-8888, 07-02-2023 11:00 am, Friedman, Sharon RN, Dermatology-Sick: Eczema, Tele-visit
-Jefferson, James, 11-12-2000, 212-212-2121, 07-05-2023 8:30 am, Ruben, Jack MD, General-Well, Tele-visit
-Berger, Anne, 10-01-1954, 212-456-7890, 06-10-2023 4:00 pm, Cohen, Michael MD, Dentistry-Sick: Cavities, In-person
-Sparrow, Jason, 09-09-1999,212-359-9865, 06-02-2023 3:00 pm, Davies, Mark MD, General-Sick: Low-grade Fever, Tele-visit
+Smith, John, 03-24-1979, 212-100-2000, 08-09-2023  12:30 pm, Davies, Mark MD, General-Sick: Sore throat, In-person, Today
+Jackson, Olga, 01-01-1989, 212-123-4567, 07-01-2023 10:00 am, Newman, Michael MD, Ophthalmology-Well, In-person, Today
+Hill, Bill, 10-25-1975, 212-999-8888, 07-02-2023 11:00 am, Friedman, Sharon RN, Dermatology-Sick: Eczema, Tele-visit, Today
+Jefferson, James, 11-12-2000, 212-212-2121, 07-05-2023 8:30 am, Ruben, Jack MD, General-Well, Tele-visit, Today
+Berger, Anne, 10-01-1954, 212-456-7890, 06-10-2023 4:00 pm, Cohen, Michael MD, Dentistry-Sick: Cavities, In-person, 5/26/2023
+Sparrow, Jason, 09-09-1999,212-359-9865, 06-02-2023 3:00 pm, Davies, Mark MD, General-Sick: Low-grade Fever, Tele-visit, 4/28/2023
+Rosen, Charlie, 09-09-1999,212-359-9865, 06-02-2022 3:00 pm, Davies, Mark MD, General-Sick: Low-grade Fever, Tele-visit, 5/20/2022
+Berger, Anne, 10-01-1954, 212-456-7890, 06-10-2022 4:00 pm, Cohen, Michael MD, Dentistry-Sick: Cavities, In-person, 4/25/2022
+Rosenberg, Anne, 10-12-1974, 212-456-7890, 06-10-2021 3:30 pm, Cohen, Michael MD, Dentistry-Sick: Root-Canal, In-person, 4/25/2021
+Jefferson, James, 11-12-2000, 212-212-2121, 07-05-2021 8:30 am, Ruben, Jack MD, General-Well, Tele-visit, 7/01/2021
+Jefferson, James, 11-12-2000, 212-212-2121, 07-05-2022 8:30 am, Ruben, Jack MD, General-Well, Tele-visit, 7/01/2022
+Herman, Herman, 10-25-1965, 212-999-8888, 04-02-2021 11:30 am, Friedman, Sharon RN, Dermatology-Sick: Eczema, Tele-visit, 3/27/2021
+Hill, Cyndi, 09-24-1969, 212-919-8658, 09-27-2020 1:00 pm, Fried, Michael MD, Dermatology-Well, In-person, 08/25/2020
+Hill, Cyndi, 09-24-1969, 212-919-8658, 07-02-2022 11:00 am, Friedman, Sharon RN, Dermatology-Sick: Hives, Tele-visit, 07/01/2022
