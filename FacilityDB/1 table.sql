@@ -14,7 +14,7 @@ create table dbo.Appointments(
     AppointmentDateTime datetime not null,
 --AS Let me know if you want first and last name split up for the provider.
     Provider varchar(100) not null constraint ck_Appointments_Provider_cannot_be_blank check(Provider <> ''),
-    Department varchar(50) not null constraint ck_Appointments_Department_cannot_be_blank check(Department <> ''),
+    Department varchar(50) not null constraint ck_Appointments_Department_must_be_one_of_4_options check(Department in ('Ophthalmology', 'Dermatology', 'General', 'Dentistry')),
     TypeOfVisit char(4) not null constraint ck_Appointments_TypeOfVisit_must_sick_or_well check(TypeOfVisit in ('sick', 'well')),
     ReasonForVisit varchar(100) not null,
     Summary varchar(200) not null,
